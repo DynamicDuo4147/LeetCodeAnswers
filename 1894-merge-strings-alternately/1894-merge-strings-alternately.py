@@ -1,26 +1,21 @@
-import numpy as np
-
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
 
+        arrWord = []
         newWord = ''
-        min_len = min(len(word1), len(word2))
 
-        count = 0 
-        for i in range(min_len):
-            newWord += word1[i]
-            newWord += word2[i]
-            count+=1
-        
-        
-        if min_len == len(word1):
-            newWord += word2[count::]
+        if len(word1) > len(word2):
+            j = len(word2)
         else:
-            newWord += word1[count::]
+            j = len(word1)
+        i = 0
+
+        for i in range(j):
+            arrWord.append(word1[i])
+            arrWord.append(word2[i])
         
-        return newWord
-
-
-        
-
+        arrWord += word1[j:] if len(word1) > len(word2) else word2[j:]
+        print(arrWord)
+        newWord = newWord.join(arrWord)
             
+        return newWord
