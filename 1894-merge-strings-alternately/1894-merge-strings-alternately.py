@@ -15,7 +15,6 @@ class Solution:
             arrWord.append(word2[i])
         
         arrWord += word1[j:] if len(word1) > len(word2) else word2[j:]
-        print(arrWord)
         newWord = newWord.join(arrWord)
             
         return newWord
