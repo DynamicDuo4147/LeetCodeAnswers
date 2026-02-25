@@ -20,5 +20,10 @@ These are my LeetCode answers in both Python3 and C++.
 ## Array
 |  |
 | ------- |
+| [0605-can-place-flowers](https://github.com/DynamicDuo4147/LeetCodeAnswers/tree/master/0605-can-place-flowers) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/DynamicDuo4147/LeetCodeAnswers/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/DynamicDuo4147/LeetCodeAnswers/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->
