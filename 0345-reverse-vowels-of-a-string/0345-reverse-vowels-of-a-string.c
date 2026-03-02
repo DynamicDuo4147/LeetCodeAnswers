@@ -3,7 +3,6 @@
 class Solution {
 public:
     string reverseVowels(string s) {
-        list<string> givenWord;
         vector<char> vowelList = {'A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u'};
         vector<char> reverseVowels; 
         int z = 0; 
